@@ -1,0 +1,144 @@
+[
+    {
+        "id": "overview_humanic_system",
+        "section": "Overview",
+        "content": "HUMANIC is a manufacturing monitoring and reporting web application. It supports order tracking, machine performance analysis, maintenance planning, operational logging, manual data entry, and analytical reporting. The system is organized using a side menu for fast navigation and structured data access. All modules are connected through shared machine and time based data."
+    },
+    {
+        "id": "authentication_login_page",
+        "section": "Authentication",
+        "subsection": "Login Page",
+        "content": "The Login Page is the entry point to the HUMANIC system. Users must authenticate to access the application. After successful login, the user is redirected to the main dashboard with role based access."
+    },
+    {
+        "id": "authentication_user_profile_logout",
+        "section": "Authentication",
+        "subsection": "User Profile and Logout",
+        "content": "The top right corner displays the logged in user name and designation. A Logout button is available next to the user information. Logout safely ends the session and redirects the user to the Login Page."
+    },
+    {
+        "id": "navigation_structure",
+        "section": "Navigation",
+        "content": "The Side Menu provides access to all functional modules in HUMANIC. Each menu item opens a dedicated page containing tables, forms, graphs, or reports. All modules are independent but connected through shared machine data and time based information."
+    },
+    {
+        "id": "order_creation_purpose",
+        "section": "Order Creation",
+        "content": "The Order Creation module monitors active production orders and their progress. It combines tabular order data with visual comparison of produced versus planned quantities to help users understand order status and production performance."
+    },
+    {
+        "id": "order_current_order_table",
+        "section": "Order Creation",
+        "subsection": "Current Order Table",
+        "content": "The Current Order Table displays all active production orders. It allows users to monitor order execution and drill down into detailed order information."
+    },
+    {
+        "id": "order_timeline_info_table",
+        "section": "Order Creation",
+        "subsection": "Order Timeline Info Table",
+        "content": "When a user selects an order row, the Order Timeline Info Table appears. This table shows the chronological progression of the selected order and tracks execution events over time."
+    },
+    {
+        "id": "order_produced_vs_planned_graph",
+        "section": "Order Creation",
+        "subsection": "Produced Total vs Planned Quantity",
+        "content": "This graph compares Produced Total and Planned Quantity. It provides a quick performance overview and highlights the gap between planned and actual production."
+    },
+    {
+        "id": "machine_info_purpose",
+        "section": "Machine Info",
+        "content": "The Machine Info module provides visibility into machine performance and efficiency. Users can move from a high level machine overview to detailed performance analysis."
+    },
+    {
+        "id": "machine_cards",
+        "section": "Machine Info",
+        "subsection": "Machine Cards",
+        "content": "The Machine Info page contains four machine cards representing HM1, HM2, HM3, and HM4. Each card shows basic machine information and acts as an entry point to the detailed machine view."
+    },
+    {
+        "id": "machine_oee_calculation",
+        "section": "Machine Info",
+        "subsection": "OEE Calculation",
+        "content": "Selecting a machine card opens the detailed machine view. Users select Start Date and End Date, then click Calculate to compute Overall Equipment Effectiveness for the selected machine and time range."
+    },
+    {
+        "id": "maintenance_info_purpose",
+        "section": "Maintenance Info",
+        "content": "The Maintenance Info module supports maintenance tracking and prioritization. It helps with proactive maintenance planning and decision making."
+    },
+    {
+        "id": "maintenance_overdue_machines",
+        "section": "Maintenance Info",
+        "subsection": "Overdue Machines Data",
+        "content": "This table includes a date input and Apply button. It displays next due maintenance date, priority, and notes for machines. It helps identify overdue and upcoming maintenance tasks."
+    },
+    {
+        "id": "maintenance_generate_plan",
+        "section": "Maintenance Info",
+        "subsection": "Generate Plan Data",
+        "content": "This table shows maintenance planning information including last maintenance date, priority, and next due date. It supports long term maintenance scheduling."
+    },
+    {
+        "id": "maintenance_sequence_priority",
+        "section": "Maintenance Info",
+        "subsection": "Maintenance Sequence",
+        "content": "This tab includes a number input field. The system displays the specified number of machines with the highest maintenance priority to help teams focus on critical machines."
+    },
+    {
+        "id": "logs_purpose",
+        "section": "Logs",
+        "content": "The Logs module provides system transparency and traceability. It records machine data and user actions. All logs are read only."
+    },
+    {
+        "id": "telemetry_logs",
+        "section": "Logs",
+        "subsection": "Telemetry Logs",
+        "content": "The Telemetry Logs Table displays telemetry data generated by machines or connected systems. It is used for monitoring, debugging, and historical analysis."
+    },
+    {
+        "id": "audit_logs",
+        "section": "Logs",
+        "subsection": "Audit Logs",
+        "content": "The Audit Logs Table records user actions and system events. It supports accountability and traceability by showing who performed an action and when."
+    },
+    {
+        "id": "mde_purpose",
+        "section": "MDE",
+        "content": "Manufacturing Data Entry screens allow manual management of production and downtime data. Users can add, update, and delete records. Data is displayed in tables below the input form."
+    },
+    {
+        "id": "production_mde",
+        "section": "MDE",
+        "subsection": "Production MDE",
+        "content": "The Production MDE screen manages manual production data. Input fields include Machine Name, Condition, Good Count, Reject Count, and Current Speed."
+    },
+    {
+        "id": "downtime_mde",
+        "section": "MDE",
+        "subsection": "Downtime MDE",
+        "content": "The Downtime MDE screen manages downtime events. Input fields include Machine Name, Downtime Start, Downtime End, and Reason."
+    },
+    {
+        "id": "reports_purpose",
+        "section": "Reports",
+        "content": "The Reports module provides filtered analytical views of production, downtime, and order data. All reports use a consistent input structure."
+    },
+    {
+        "id": "production_report",
+        "section": "Reports",
+        "subsection": "Production Report",
+        "content": "The Production Report analyzes production data for a selected machine and time range. Input fields include Machine Name, Start Date, and End Date."
+    },
+    {
+        "id": "downtime_report",
+        "section": "Reports",
+        "subsection": "Downtime Report",
+        "content": "The Downtime Report analyzes downtime duration and patterns for a selected machine and time range. Input fields include Machine Name, Start Date, and End Date."
+    },
+    {
+        "id": "order_report",
+        "section": "Reports",
+        "subsection": "Order Report",
+        "content": "The Order Report provides summarized order performance for a selected machine and time range. Input fields include Machine Name, Start Date, and End Date."
+    }
+]
